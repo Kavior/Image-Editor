@@ -20,8 +20,9 @@
 					$('#new').click(function(){
 						$(this).hide();
 						if(!uploadAppended){
-						$('#uploadArea').append('<div id="newForm"><form action="index.php" method="post" enctype="multipart/form-data">Select image to upload: <input type="file" name="fileToUpload" id="fileToUpload"> <input type="submit" value="Upload Image" name="submit"></form></div>'
-						
+						$('#uploadArea').append('<div id="newForm"><form action="index.php" method="post" enctype="multipart/form-data">'+
+						'Select image to upload: <input type="file" name="fileToUpload" id="fileToUpload">'+
+						'<input type="submit" value="Upload Image" name="submit"></form></div>'
 						);
 						uploadAppended = true;
 						}
