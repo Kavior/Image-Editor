@@ -1,0 +1,117 @@
+body{
+	background-color: black;
+	color:#F28511;
+}
+
+hr{
+	margin:0px;
+	width: 220px;
+}
+
+img{
+	padding:100px;
+}
+
+input[type=text]{
+	background-image:url('input2.png');
+	background-size:200%;
+	background-color:silver;
+}
+
+input[type=submit]{
+	border: 0 none;
+	border-radius: 2px 2px 2px 2px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;	
+	margin-top: 10px;	
+	padding: 7px 10px;
+	text-transform: none;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s; 
+	text-align: center; 
+	background: none repeat scroll 0 0 #46b98a;  
+}
+	
+input[type=submit] hover {
+	background: none repeat scroll 0 0 #444444;
+	color:  #FFFFFF;
+}
+	
+#mainBody{
+	width: 1700px;
+	height: 900px;
+}
+
+#uploadArea{
+	margin-bottom:5px;
+}
+
+#mainImage{
+	width: 1050px;
+	height: 720px;
+	max-width: 1400px;
+	max-height: 2200px;
+	border : 2px solid white;
+	margin-left: 30px;
+	margin-top: 3px;
+	display: inline-block;
+	resize: both;
+	overflow-y: auto;
+	background-image: url('imgBcg.png');
+}
+
+.leftField{
+	width: 50px;
+	float:right;
+	margin-right:80px;
+	clear:both;	
+}
+
+#save, #new{
+	font-size:22px;
+	width:140px;	
+}
+
+.switcher{
+	background:url('silver.jpg');
+	width:220px;
+	margin-bottom:1px;
+	font-weight:bold;
+	font-size:24px;
+	cursor: pointer;
+}
+
+.more{
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+	width:220px;
+	background:url('silver.jpg');
+	cursor:default;
+}
+
+.options{
+	padding:5px;
+}
+
+.inputBox{
+	width: 35px;
+	
+}
+
+.ticker{
+	display: inline-block;
+		position:relative;
+}
+
+#leftTools{
+	margin-left:6px;
+	display: inline-block;
+	width:225px	
+}
